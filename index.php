@@ -1,7 +1,7 @@
 <?php
 spl_autoload_register('autoload');
 function autoload($calss){
-	require "$calss".'.php';
+	require str_replace('\\', '/', $class).'.php';
 }
 /*$user = IMooc\Factory::getUser(2);
 var_dump($user->getInformation());*/
