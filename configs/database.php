@@ -2,9 +2,9 @@
 $config = array(
 	'master' => array(
 		'type' => 'MySQL',
-		'host' => '192.168.201.196',
+		'host' => '119.29.221.212',
 		'user' => 'root',
-		'password' => '',
+		'password' => 'he3592215',
 		'dbname' => 'test',
 		),
 	);
