@@ -7,7 +7,7 @@ class Application
 	protected function __construct()
 	{
 		//$config = require('/configs/database.php');
-		$this->configs = new Config('/configs');
+		$this->configs = new Config('configs');
 	}
 	static function getInstance()
 	{
